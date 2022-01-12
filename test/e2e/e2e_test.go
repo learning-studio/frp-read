@@ -13,6 +13,7 @@ import (
 	_ "github.com/fatedier/frp/test/e2e/basic"
 	_ "github.com/fatedier/frp/test/e2e/features"
 	_ "github.com/fatedier/frp/test/e2e/plugin"
+	_ "github.com/fatedier/frp/test/e2e/scale"
 
 	_ "github.com/onsi/ginkgo"
 )

@@ -54,7 +54,7 @@ func (f *Framework) RunProcesses(serverTemplates []string, clientTemplates []str
 		f.clientProcesses = append(f.clientProcesses, p)
 		err = p.Start()
 		ExpectNoError(err)
-		time.Sleep(500 * time.Millisecond)
+		time.Sleep(50 * time.Millisecond)
 	}
 	time.Sleep(500 * time.Millisecond)
 }
